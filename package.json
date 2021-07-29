@@ -1,0 +1,29 @@
+{
+  "name": "cefet-web-geiser",
+  "version": "1.0.0",
+  "description": "Ex Web",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urielbra/cefet-web-geiser.git"
+  },
+  "author": "Uriel B. Braga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/urielbra/cefet-web-geiser/issues"
+  },
+  "homepage": "https://github.com/urielbra/cefet-web-geiser#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "nodemon": "^2.0.12"
+  },
+  "type": "module"
+}
